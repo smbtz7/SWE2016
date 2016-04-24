@@ -10,13 +10,13 @@ Welcome to Software Sharks! We are currently developing a prototype for scheduli
 
 1. First, begin by opening CHROME
 
-  This application has been tested/developed in Google's Web browser, Chrome 
+  ###### This application has been tested/developed in Google's Web browser, Chrome 
 
 2. Then type http://jdwswe.centralus.cloudapp.azure.com
 
 3. Please proceed by following the instructions on screen for registration
 
-    For prototype purposes, the codes 1000, 2000, 3000, and 4000 will be available to register
+  ###### For prototype purposes, the codes 1000, 2000, 3000, and 4000 will be available to register
     
 4. Once you have registered, you will find yourself on the home page!
 
@@ -24,7 +24,3 @@ Welcome to Software Sharks! We are currently developing a prototype for scheduli
 allow you to update any information that will be used when producing the schedule.
 
 6. To view the schedule, please select the option on the menu bar
-
-
-5. 
-5. 
