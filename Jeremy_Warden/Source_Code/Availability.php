@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    if(isset($_SESSION['first_name'])){
+        #echo "<h1>Welcome Home, " . $_SESSION['first_name'] . "!</h1><br>";
+    }else{
+        session_destroy();
+        header('Location: index.php');
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,27 +37,26 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        Schedule Sharks
-                        <img src = "shark.png" style="width:80px;height:80px;">
+                        Schedule Shark
                     </a>
                 </li>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="home.php">Home</a>
                 </li>
                 <li>
-                    <a href="#">Requests</a>
+                    <a href="Request.php">Requests</a>
                 </li>
                 <li>
-                    <a href="#">Availability</a>
+                    <a href="Availability.php">Availability</a>
                 </li>
                 <li>
-                    <a href="#">Contacts</a>
+                    <a href="Contact.php">Contacts</a>
                 </li>
                 <li>
-                    <a href="#">Search</a>
+                    <a href="Schedule.php">Schedule</a>
                 </li>
                 <li>
-                    <a href="#">Schedule</a>
+                    <a href="index.php">Log Out</a>
                 </li>
             </ul>
         </div>
@@ -59,8 +67,11 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>Home</h1>
-                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a>
+                        <?php
+                          session_start();
+                          echo "<h1>Welcome Home, " . $_SESSION['first_name'] . "!</h1><br>";
+                        ?>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Show Menu</a>
                     </div>
                 </div>
             </div>
