@@ -1,0 +1,28 @@
+.modal-footer {   border-top: 0px; }
+
+.background{
+    background-color:deepskyblue;
+}
+
+#center{
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+#label{
+    color: white;
+    font-size: 150%;
+}
+
+#Formlabel{
+    color: white;
+    font-size: 250%;
+}
+
+.text-center{
+    color: deepskyblue;
+}
