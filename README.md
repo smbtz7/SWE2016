@@ -11,5 +11,3 @@ Welcome to Software Sharks! We are currently developing a prototype for scheduli
 1. First, begin by opening CHROME
 ⋅⋅*This application has been tested/developed in Google's Web browser, Chrome 
 2. Then type http://jdwswe.centralus.cloudapp.azure.com
-⋅⋅ 
-⋅⋅
