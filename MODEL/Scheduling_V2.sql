@@ -111,9 +111,9 @@ INSERT INTO Schedule (employee_ID,days,times) VALUES (6,'MTWTHF','14:00:00');
 INSERT INTO Schedule (employee_ID,days,times) VALUES (7,'MTWTHF','11:00:00');
 INSERT INTO Schedule (employee_ID,days,times) VALUES (8,'MTTHF','11:00:00');
 
---added the registration_Codes table to the file
-CREATE TABLE Registration_Codes
+--Not a Relational table
+CREATE TABLE Code_Keep
 (
 code int,
-PRIMARY KEY(code)
+position_ID int
 );
